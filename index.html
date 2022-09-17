@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Etch-A-Sketch</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Etch-A-Sketch</h1>
+        </div>
+        <div>
+            <h2>A project for The Odin Project</h2>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <div>
+                <button id="reset-btn">Reset Grid</button>
+            </div>
+            <div id="current-size-box">
+            </div>
+            <div>
+                <label for="square-size-slider" id="slider-label">16</label><br />
+                <input type="range" min="10" max="100" value="16" id="square-size-slider">
+            </div>
+            <div>
+                <label for="random-color-toggle" id="random-color-label">Random Color (NYI):</label><br />
+                <input type="checkbox" id="random-color-toggle">
+            </div>
+        </nav>
+        <div id="eas-container">
+
+        </div>
+    </main>
+    <footer>
+        Created by Simon Fraser as part of The Odin Project Fundamentals course.
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
